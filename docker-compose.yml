@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  api:
+    image: marijndemul16/openlinee:latest
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs

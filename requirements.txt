@@ -1,0 +1,6 @@
+fastapi>=0.95.0
+pydantic>=1.10.7
+uvicorn>=0.22.0
+python-dotenv>=1.0.0
+# Depending on which Supabase client you're using:
+supabase>=0.7.0  # If using the community maintained client
